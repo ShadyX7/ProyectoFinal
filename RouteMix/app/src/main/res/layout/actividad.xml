@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+    android:background="#FFFFFF">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/mapa">
+
+    <com.mapbox.mapboxsdk.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        mapbox:access_token="pk.eyJ1Ijoic2hhZHl4IiwiYSI6ImNpb2RmZmpwYTAwMGJ2ZWt4OTEwNnh2dnUifQ.CB-gstDvDd4FxO4uKa001Q"
+        mapbox:style_url="mapbox://styles/mapbox/streets-v9"
+        mapbox:center_latitude="40.4494241"
+        mapbox:center_longitude="-3.6081583" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#04B486"
+        android:id="@+id/panelBajo"
+        android:layout_marginTop="458dp">
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/opciones_actividad"
+            android:background="@drawable/opactividad"
+            android:layout_marginTop="1dp"
+            android:layout_marginLeft="5dp" />
+    </LinearLayout>
+
+
+</RelativeLayout>

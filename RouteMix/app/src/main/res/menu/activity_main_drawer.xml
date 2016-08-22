@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_first_layout"
+            android:icon="@drawable/actividad"
+            android:title="@string/actividad" />
+        <item
+            android:id="@+id/nav_second_layout"
+            android:icon="@drawable/historial"
+            android:title="@string/historial" />
+        <item
+            android:id="@+id/nav_third_layout"
+            android:icon="@drawable/estadisticas"
+            android:title="@string/estadisticas" />
+
+
+    </group>
+
+    <item android:title="@string/otras_opciones">
+        <menu>
+            <item
+                android:id="@+id/nav_tours"
+                android:icon="@drawable/tours"
+                android:title="@string/opcion_1" />
+            <item
+                android:id="@+id/nav_rutas"
+                android:icon="@drawable/rutas"
+                android:title="@string/opcion_2" />
+            <item
+            android:id="@+id/nav_four_layout"
+            android:icon="@drawable/torutas1"
+            android:title="@string/todasrutas" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+
+    tools:context="com.app.davic.routemix.MapaHistoriaActivity"
+    android:orientation="vertical"
+    android:id="@+id/LayoutPrincipal">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/mapa"
+        android:layout_alignParentTop="true">
+
+        <com.mapbox.mapboxsdk.maps.MapView
+            android:id="@+id/mapView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            mapbox:access_token="pk.eyJ1Ijoic2hhZHl4IiwiYSI6ImNpb2RmZmpwYTAwMGJ2ZWt4OTEwNnh2dnUifQ.CB-gstDvDd4FxO4uKa001Q"
+            mapbox:style_url="mapbox://styles/mapbox/streets-v9"
+            mapbox:center_latitude="39.690280594818034"
+            mapbox:center_longitude="-2.9625320434570312" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#04B486"
+        android:id="@+id/panelBajo"
+        android:layout_marginTop="458dp">
+
+    </LinearLayout>
+
+</RelativeLayout>

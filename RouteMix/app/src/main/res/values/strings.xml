@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">RouteMix</string>
+    <string name="access_token">pk.eyJ1Ijoic2hhZHl4IiwiYSI6ImNpb2RmZmpwYTAwMGJ2ZWt4OTEwNnh2dnUifQ.CB-gstDvDd4FxO4uKa001Q</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Opciones</string>
+
+    <string name="Introduzca_ruta_a">Introduzca el origen</string>
+    <string name="Introduzca_ruta_b">Introduzca el destino</string>
+
+    <string name="hello_world">Hello world!</string>
+
+
+    <string name="usuario">Usuario</string>
+
+    <string name="actividad">Actividad</string>
+
+    <string name="historial">Historial</string>
+
+    <string name="estadisticas">Estadísticas</string>
+
+    <string name="otras_opciones">Otras opciones</string>
+
+    <string name="opcion_1">Tours</string>
+
+    <string name="opcion_2">Rutas</string>
+
+    <string name="fragment1">Fragmento_Actividad</string>
+    <string name="title_activity_historial">Historial</string>
+    <string name="title_activity_opciones">OpcionesActivity</string>
+
+
+
+
+
+    <string name="btnMovilidad">Movilidad</string>
+    <string name="btnMusica">Música</string>
+    <string name="btnRadioDistancia">Rádio de Distancia</string>
+    <string name="btnTipoRuta">Tipo de Ruta</string>
+    <string name="title_activity_movilidad">MovilidadActivity</string>
+    <string name="txtEnunciadoMovilidad">Seleleccione el tipo de medio que va a utilizar:</string>
+    <string name="radioCocheMoto">Coche/Moto</string>
+    <string name="radioPie">A pie (Caminando)</string>
+    <string name="radioBicicleta">Bicicleta</string>
+    <string name="radioSkate">Skate</string>
+    <string name="btnbtnGuardarCambios">Guardar Cambios</string>
+    <string name="btnGuardarCambios">Guardar Cambios</string>
+    <string name="title_activity_radio_distancia">RadioDistanciaActivity</string>
+    <string name="txt_km">5 Km</string>
+    <string name="btnAceptar">Aceptar</string>
+    <string name="txtRadioDistancia">Escoja el radio de distancia de la ruta:</string>
+    <string name="title_activity_radio_distancia2">RadioDistanciaActivity2</string>
+    <string name="title_activity_tipo_ruta">TipoRuta</string>
+    <string name="txtEnunciadoTipoRuta">Escoja la velocidad de la ruta:</string>
+    <string name="txt_corta">corta</string>
+    <string name="txtRapida">rápida</string>
+    <string name="txt_enunciado_selecciona_movilidad">Selecciona movilidad:</string>
+    <string name="radioUrbano">Urbano</string>
+    <string name="radioMontania">Montaña</string>
+    <string name="radioPlaya">Playa</string>
+    <string name="radioTuristico">Turístico</string>
+
+    <string-array name="valores_Spinner">
+        <item>Coche/Moto</item>
+        <item>A Pie</item>
+        <item>Bicicleta</item>
+        <item>Skate</item>
+    </string-array>
+    <string name="title_activity_radio">RadioActivity</string>
+    <string name="checkNoKm">No me importa el rádio de distancia, para mí los kilómetros no son importantes.</string>
+    <string name="txtRutasHistorial">Historial de Rutas Realizadas</string>
+    <string name="txt_tituloHistorial">  Título  </string>
+    <string name="txtTituloHistorial">  Título  </string>
+    <string name="txtHistorialDescripcion">  Descripcion  </string>
+    <string name="txtHistorialTipo">    Tipo  </string>
+    <string name="txtHistorialKm">Km</string>
+    <string name="title_activity_mapa_historia">MapaHistoriaActivity</string>
+
+
+
+    <string name="pie_chart">Estadísticas de las rutas: </string>
+    <string name="rutastotales">Rutas Totales:</string>
+    <string name="kmTotale">Kilometros totales recorridos:</string>
+    <string name="nom8ultruta">Nombre de la ultima ruta:</string>
+    <string name="kmultruta">Kilómetros de la ultima ruta:</string>
+    <string name="promedioKm">Promedio de kilometros de la ruta:</string>
+    <string name="todasrutas">Todas las rutas</string>
+    <string name="txt_MostrarTodasLasRutas">Mostrar todas las Rutas disponibles</string>
+    <string name="rtascochemoto">Rutas en Coche/Moto:</string>
+
+</resources>

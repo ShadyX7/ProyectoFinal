@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#043432">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vehículo:"
+        android:id="@+id/vehiculo"
+        android:layout_marginTop="31dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#FFFFFF" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vehiculo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:id="@+id/vehiculoGrupo">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Coche/Moto"
+            android:id="@+id/coche_moto"
+            android:checked="true"
+            android:layout_weight="1"
+            android:textColor="#FFFFFF" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Andando"
+            android:id="@+id/andando"
+            android:checked="false"
+            android:layout_weight="1"
+            android:textColor="#FFFFFF" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bicicleta"
+            android:id="@+id/bici"
+            android:checked="false"
+            android:layout_weight="1"
+            android:textColor="#FFFFFF" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Skate"
+            android:id="@+id/skate"
+            android:checked="false"
+            android:layout_weight="1"
+            android:textColor="#FFFFFF" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tipo de ruta:"
+        android:id="@+id/tipo"
+        android:layout_marginTop="21dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/vehiculoGrupo"
+        android:layout_alignLeft="@+id/vehiculo"
+        android:layout_alignStart="@+id/vehiculo"
+        android:textColor="#FFFFFF" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:id="@+id/tipo_grupo"
+        android:layout_below="@+id/tipo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Urbano"
+            android:id="@+id/urbano"
+            android:checked="true"
+            android:layout_weight="1"
+            android:textColor="#FFFFFF" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Playa"
+            android:id="@+id/playa"
+            android:checked="false"
+            android:layout_weight="1"
+            android:textColor="#FFFFFF" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/montaña"
+            android:checked="false"
+            android:layout_weight="1"
+            android:text="Montaña"
+            android:textColor="#FFFFFF" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Turístico"
+            android:id="@+id/turistico"
+            android:checked="false"
+            android:layout_weight="1"
+            android:textColor="#FFFFFF" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="TÍTULO:"
+        android:id="@+id/textView14"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/tipo_grupo"
+        android:layout_alignLeft="@+id/tipo"
+        android:layout_alignStart="@+id/tipo"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/titulo"
+        android:layout_alignBottom="@+id/textView14"
+        android:layout_toRightOf="@+id/textView14"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="DESCRIPCIÓN:"
+        android:id="@+id/textView15"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/textView14"
+        android:layout_alignStart="@+id/textView14" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/descripcion"
+        android:textColor="#FFFFFF"
+        android:layout_alignBottom="@+id/textView15"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/textView15"
+        android:layout_toEndOf="@+id/textView15" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView16"
+        android:layout_marginTop="29dp"
+        android:text="Latitud Origen:"
+        android:textStyle="bold"
+        android:layout_below="@+id/textView15"
+        android:layout_alignLeft="@+id/textView15"
+        android:layout_alignStart="@+id/textView15"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/latOrigen"
+        android:layout_alignBottom="@+id/textView16"
+        android:layout_toRightOf="@+id/textView16"
+        android:layout_alignRight="@+id/descripcion"
+        android:layout_alignEnd="@+id/descripcion"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Longitud Origen:"
+        android:id="@+id/textView17"
+        android:layout_below="@+id/latOrigen"
+        android:layout_alignLeft="@+id/textView16"
+        android:layout_alignStart="@+id/textView16"
+        android:layout_marginTop="25dp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lonOrigen"
+        android:layout_alignBottom="@+id/textView17"
+        android:layout_toRightOf="@+id/textView17"
+        android:layout_alignRight="@+id/latOrigen"
+        android:layout_alignEnd="@+id/latOrigen"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Latitud Destino:"
+        android:id="@+id/textView18"
+        android:layout_below="@+id/lonOrigen"
+        android:layout_alignLeft="@+id/textView17"
+        android:layout_alignStart="@+id/textView17"
+        android:layout_marginTop="25dp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/latDestino"
+        android:layout_alignBottom="@+id/textView18"
+        android:layout_toRightOf="@+id/textView18"
+        android:layout_alignRight="@+id/lonOrigen"
+        android:layout_alignEnd="@+id/lonOrigen"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Longitud Destino:"
+        android:id="@+id/textView19"
+        android:layout_below="@+id/latDestino"
+        android:layout_alignLeft="@+id/textView18"
+        android:layout_alignStart="@+id/textView18"
+        android:layout_marginTop="25dp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lonDestino"
+        android:layout_alignBottom="@+id/textView19"
+        android:layout_toRightOf="@+id/textView19"
+        android:layout_alignRight="@+id/lonOrigen"
+        android:layout_alignEnd="@+id/lonOrigen"
+        android:textColor="#FFFFFF" />
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:id="@+id/boton_enviar"
+        android:layout_below="@+id/lonDestino"
+        android:layout_toRightOf="@+id/textView15"
+        android:layout_toEndOf="@+id/textView15"
+        android:background="@drawable/boton_enviar"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="70dp" />
+
+</RelativeLayout>

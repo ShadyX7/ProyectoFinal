@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.user.routemix.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#04B486">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bienvenido a RouteMix"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal|top"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:focusable="false"
+            android:textColor="#FFFFFF" />
+
+        <ImageButton
+            android:layout_width="120dp"
+            android:layout_height="121dp"
+            android:id="@+id/imageButton"
+            android:layout_gravity="center"
+            android:background="@drawable/icono_app"
+            android:layout_marginBottom="120dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gracias por navegar con nosotros, ya puede disfrutar de todas las ventajas con las que cuenta RouteMix.
+Una manera sencilla de familiarizarse con su ciudad y de gestionar sus rutas a través de ellas.
+Navegando hacia cualquiera de las opciones de RouteMix esta concediendo permisos y aceptando los términos de uso y nuestra politica.¡Gracias por confiar en nosotros!"
+            android:id="@+id/textView20"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textStyle="italic"
+            android:textColor="#FFFFFF" />
+    </FrameLayout>
+
+</RelativeLayout>
